@@ -1,0 +1,1 @@
+g++ src/imgui*.cpp src/main.cpp src/glad.cpp src/Framebuffer.cpp src/Shader.cpp src/lodepng.cpp -o shadertoy -O2 -lglfw -lGL -I./include -ldl --std=c++17
